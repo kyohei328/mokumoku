@@ -1,1 +1,1 @@
-document.querySelector("#js-event-bookmark-<%= @user.id %>").innerHTML = "<%= j(render 'users/follows/unfollow', user: @user) %>"
+document.querySelector("#js-user-follow").innerHTML = "<%= j(render 'users/follows/unfollow', user: @user) %>"

@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="d-flex justify-content-between">
                         <h4 class="ms-3"><%= @user.name %></h4>
-                        <div id="js-event-bookmark-<%= @user.id %>">
+                        <div id="js-user-follow">
                             <% if current_user.following?(@user) %>
                                 <%= render 'users/follows/unfollow', user: @user %>
                             <% else %>
