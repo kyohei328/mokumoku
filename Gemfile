@@ -77,3 +77,9 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'faker'
+
+
+# debug
+gem 'pry-rails'
+gem 'pry-doc'
+gem 'pry-byebug'
